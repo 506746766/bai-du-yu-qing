@@ -179,7 +179,7 @@ body{
 .response-menu{  
     position: fixed;
     left: 50%;
-    top:350px;
+    top:260px;
     transform:translate(-50%,-50%);
     display: none;
     z-index: 222222222222222222222;
@@ -240,6 +240,7 @@ body{
 .tiaozhuan{
     position: absolute;
     right: 50px;
+    margin-left: 30px;
 }
 .tiaozhuan .iconfont{
    font-size: 16px;
@@ -255,7 +256,7 @@ body{
 .response-form{
     position: fixed;
     left: 50%;
-    top:310px;
+    top:220px;
     transform:translate(-50%,-50%);
     display: none;
     z-index: 222222222222222222222;
