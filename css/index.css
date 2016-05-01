@@ -20,6 +20,7 @@ a:hover {
 body{
     overflow: hidden;
 }
+
 .mask{
     width: 100%;
     height: 100%;
@@ -112,42 +113,42 @@ body{
     top: 0;
     position: fixed;
     width: 100%;
-    height: 135px;
+    height: 100px;
     z-index: 100;
     background: #168bd8;
 }
 .response-nav{
     max-width: 768px;
     margin: 0 auto;
-    height: 60px;  
+    height: 50px;
+    background: #006CB4;  
 }
 .response-nav-logo{
-    width: 180px;
-    height: 60px;
-    margin: 0 auto; 
-    margin-top: 10px;
-
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
 }
 .response-logo{
     display: block;
-    width: 180px;
-    height: 60px;
+    width: 120px;
+    height: 40px;
     background:url(../images/header_z_94c6de7.png) no-repeat -2px 0;
     background-size: cover;
+    position: absolute;
+    top:5px;
 }
 .btn{
-    height: 50px;   
-    
-    margin-top: 10px;
+    height: 30px;      
+    margin-top:10px;
     position: relative;
 }
 .xiala{
-    margin-left:15px;
+    margin-left:30px;
     display: block;
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
     text-align: center;
-    line-height: 36px;
+    line-height: 24px;
     border: 3px solid #fff;
     border-radius: 4px; 
     position: absolute;
@@ -155,14 +156,14 @@ body{
 }
 .zhuce{
     display: block;
-    width: 36px;
-    height: 36px;
+    width: 24px;
+    height: 24px;
     text-align: center;
-    line-height: 36px;
+    line-height: 24px;
     border: 3px solid #fff;
     border-radius: 4px; 
     position: absolute;
-    right: 15px;
+    right: 30px;
 }
 .iconfont{
     transition:all .3s linear ;
@@ -339,6 +340,9 @@ body{
     background: url(../images/screen4.jpg) no-repeat;
     position: relative;
     top:60px;
+    height: 646px;
+}
+.screen-out{
     height: 646px;
 }
 /*第一屏开始*/
@@ -886,22 +890,45 @@ float: right;
     }  
       .swiper-container{
         max-width: 768px;
+        min-height: 380px;
+        top:-35px;
     }
-    .screen-inner-1{
-        top:0;
+
+    .screen-box-1{
+         position: relative;
     }
   .screen-box-2,.screen-box-3,.screen-box-4{
-        top:0;
+     top:0; 
   }
   .obj{
     display: none;
   }
   .obj-launch,.obj-flight,.center .obj,.obj-bubble{
     display: block;
+
   }
-   .obj-launch,.obj-flight{
-    margin-left: 30px;
+
+  .obj-launch{
+    width:240px;
+    height: 76px;
+    background-size: cover;
+    margin-left:30px;
+  }
+  .obj-flight{
+    position: absolute;
+    left:180px;
+    width: 60px;
+    height: 40px;
+    background-size: cover;
    }
+   .obj-ship {
+    width: 121px;
+    height: 114px;
+    background: url(../images/ship_1ad6734.png);
+    left: 126px;
+    top: -90px;
+    background-size: cover;
+}
   #myform{
     display: none;
   }
@@ -915,14 +942,35 @@ float: right;
     width: 100%;
    }
    .title{
+    vertical-align: middle;
     margin: 0 auto;
    }
    .title .text h4{
-    font-size: 24px;
+    font-size: 18px;
    }
    .title .text p{
-    font-size: 16px;
+    font-size: 14px;
    }
+   .title h3{
+      width: 33px;
+      height: 63px;
+      background-size: cover;
+      
+   }
+   .title .text h4{
+    margin-bottom: -10px;
+   }
+   .title .text p {
+    line-height:18px;
+   }
+   .title .text {
+    margin-left: 51px;
+    margin-top: -14px;
+    color: #fff;
+}
+.screen-inner-4 .title h3{
+    background-size: cover;
+}
 }
 @media screen and (min-width: 768px){
     .header{
