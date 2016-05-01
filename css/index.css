@@ -108,6 +108,7 @@ body{
 .response{
     max-width:768px;
     overflow: hidden;
+
 }
 .response-header{
     top: 0;
@@ -765,13 +766,13 @@ float: right;
 
 @keyframes y-ain{
  0% {
-    transform: rotate3d(0 0 0);
+    transform: rotate3d(0,1,0,0);
 }
 40% {
-    transform: rotate3d(0 0 0);
+    transform: rotate3d(0,1,0,0);
 }
 100% {
-    transform: rotate3d(0 360deg 0);
+    transform: rotate3d(0,1,0,360deg);
 }
 }
 /*第三屏开始*/
