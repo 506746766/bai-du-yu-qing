@@ -181,7 +181,7 @@ body{
     position: fixed;
     left: 50%;
     top:260px;
-    transform:translate(-50%,-50%);
+    transform:translate3d(-50%,-50%);
     display: none;
     z-index: 222222222222222222222;
 }
@@ -257,7 +257,7 @@ body{
     position: fixed;
     left: 50%;
     top:220px;
-    transform:translate(-50%,-50%);
+    transform:translate3d(-50%,-50%);
     display: none;
     z-index: 222222222222222222222;
     height: 348px;
