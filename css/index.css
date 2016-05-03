@@ -623,14 +623,14 @@ float: right;
 .obj-launch {
     width: 501px;
     height: 158px;
-    background: url(../images/launch_deea86c.png);
+    background: url(../images/launch_deea86c.png) no-repeat;
     left: 0;
     top:55px;
 }    
 .obj-flight {
     width: 119px;
     height: 78px;
-    background: url(../images/flight_ade8ee2.png);
+    background: url(../images/flight_ade8ee2.png) no-repeat;
     left: 295px;
     top: 43px;
     animation:move 2s ease-out .3s infinite;
